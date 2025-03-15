@@ -1,4 +1,108 @@
+/* Global Styling */
 body {
+    font-family: 'Source Sans Pro', sans-serif;  /* Clean, professional sans-serif */
+    background-color: #F4F1E6;  /* Muted beige background */
+    color: #2E2A24;  /* Deep charcoal for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #625D52;  /* Muted brown-gray */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #E6DED1;  /* Soft sand color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about h2, #portfolio h2 {
+    color: #3E3B36;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Portfolio Section */
+.project {
+    border: 1px solid #DDD0B8; /* Soft tan */
+    padding: 15px;
+    border-radius: 5px;
+    background: #FAF8F2;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #625D52; /* Muted brown-gray */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #51473E; /* Slightly darker shade */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #625D52;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    font-size: 14px;
+}body {
     font-family: 'Lora', serif;
     background-color: #f9f5f3;
     color: #333;
