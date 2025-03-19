@@ -1,4 +1,108 @@
-/* Import the Noto Sans SC font */
+/* Import Sans-Serif Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* Global Dark Theme */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;  /* Black background */
+    color: #FFFFFF;  /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #002cbb;  /* Deep blue */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: #F6E64F;  /* Yellow accent */
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #FF3A08;  /* Bright red hover */
+}
+
+/* Content Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1E3935;  /* Deep green-blue */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.05);
+    text-align: left;
+}
+
+/* Portfolio Section */
+.project {
+    border: 1px solid #B47457; /* Muted brown */
+    padding: 15px;
+    border-radius: 8px;
+    background: #306f1d; /* Deep forest green */
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.project img {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #FF0089; /* Bright pink button */
+    color: #FFFFFF;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #DC4436; /* Darker red hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding: 15px;
+    background-color: #002cbb; /* Deep blue */
+    color: #FFFFFF;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    font-size: 14px;
+}/* Import the Noto Sans SC font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
 
 /* Global Styling */
